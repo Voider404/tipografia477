@@ -28,3 +28,7 @@ Route::get('change', function () {
     $users = DB::table('users')->get();
     return view('change', compact('users'));
 });
+
+Route::get('/page', function () {
+    return view('page');
+});
