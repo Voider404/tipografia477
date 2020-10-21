@@ -1,0 +1,140 @@
+html, body {
+    background-color: #F5F7F8;
+    color: #636b6f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+body{
+    padding-top: 90px;
+}
+a{
+    text-decoration: none;
+    color: #757575 !important;
+}
+
+ul, li{
+    list-style-type: none;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.menu{
+    float: right;
+    text-align: right;
+}
+
+.top{
+    position: absolute;
+    height: 70px;
+    background-color: white;
+    color: #757575 !important;
+    width: 100%;
+    top: 0px;
+    font-size: 18pt;
+}
+
+.top-right {
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+.top-left {
+    position: absolute;
+    top: 18px;
+    left: 5%;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+.btn-welcome{
+    color: white;
+    background-color: #0069A7;
+    border: none;
+    border-radius: 60px;
+    width: 372px;
+    height: 80px;
+    padding: 5px;
+    margin-top: 80px;
+    font-size: 30pt;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.middle-col{
+    border-radius: 6px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.logo{
+    position: absolute;
+    width: 112px;
+    height: 62px;
+    margin-top: 10px;
+    margin-right: -50%;
+    left: 46%;
+}
+.search-form{
+    padding: 0 20px;
+    border-radius: 40px;
+    width: 100%;
+    border: none;
+    background-color: #F2F2F2;
+    height: 40px;
+    font-size: 22px;
+    outline: none;
+}
+
+.search-btn{
+    position: absolute;
+    border: none;
+    width: 21px;
+    height: 21px;
+    background-image: url("../images/SearchIcon.svg");
+    background-color: rgba(255,255,255,0);
+    right: 50px;
+    top: 30px;
+    outline: none;
+}
+
+.post{
+    color: black;
+}
+
+.post-image{
+    width: 310px;
+    height: 180px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.post-info{
+    display: initial;
+    padding: 0 20px;
+}.post-text{
+     max-width: 450px;
+ }

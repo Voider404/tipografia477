@@ -4,7 +4,8 @@ use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
-public $table = 'user';
+
+    public $table = 'user';
     /**
      * Run the database seeds.
      *
@@ -12,6 +13,7 @@ public $table = 'user';
      */
     public function run()
     {
+
         // $this->call(UsersTableSeeder::class);
     }
 }
