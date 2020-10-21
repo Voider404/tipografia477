@@ -18,7 +18,7 @@
     <hr>
 
         <div class="post">
-            <img class="post-image" src="https://lh3.googleusercontent.com/proxy/FPG5xkx31KTiBK_a5XVw6T4s9h7QKLpDqIiQi9At_UHVT9Q-zfxJehrNRz4HONYH7XegfAUM6rxYGOaGxSzURVmOgTeqAOogp0lRzXYcSfSEVxUFuQ">
+            <img class="post-image" src="images/RCWeekly_cm.png">
             <div class="post-info">
                 <H3>Родник в Приморском районе</H3>
                 <H4>07.10.2020</H4>

@@ -64,10 +64,10 @@
         <div class="row">
             <div class="col col-lg-2">
                 <div class="menu">
-                    <a href="{{ url('/main') }}">Главная</a><br>
-                    <a href="{{ url('/') }}">Карта</a><br>
-                    <a href="{{ url('/') }}">Чёрный список</a><br>
-                    <a href="{{ url('/') }}">ЧаВо</a><br>
+                    <a href="{{ url('/main') }}">Home</a><br>
+                    <a href="{{ url('/') }}">News</a><br>
+                    <a href="{{ url('/') }}">Events</a><br>
+                    <a href="{{ url('/') }}">Roster</a><br>
                 </div>
             </div>
             <div class="col-md-7">
