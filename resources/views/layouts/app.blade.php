@@ -27,7 +27,7 @@
 </head>
 <body>
     <header class="top">
-        <a href="/main"><img src="images/FunkLogo.svg" class="logo"></a>
+        <a href="/main"><img src="images/RC_logo.png" class="logo"></a>
     @if (Route::has('login'))
         <div class="top-right links">
         @if (Auth::check())
