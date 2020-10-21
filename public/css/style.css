@@ -40,7 +40,7 @@ ul, li{
 .top{
     position: absolute;
     height: 70px;
-    background-color: white;
+    background-color: black;
     color: #757575 !important;
     width: 100%;
     top: 0px;
@@ -92,9 +92,9 @@ ul, li{
 
 .logo{
     position: absolute;
-    width: 112px;
-    height: 62px;
-    margin-top: 10px;
+    width: 55px;
+    height: 55px;
+    margin-top: 5px;
     margin-right: -50%;
     left: 46%;
 }
