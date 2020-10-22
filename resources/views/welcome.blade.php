@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>FunkWater</title>
+    <title>Rocket Core</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -49,7 +49,7 @@
         .top{
             position: absolute;
             height: 70px;
-            background-color: white;
+            background-color: black;
             color: #757575 !important;
             width: 100%;
             top: 0px;
@@ -137,9 +137,10 @@
     @endif
 
         <div class="top-left">
-            <a class="links" href="{{ url('/main') }}">Главная</a>
-            <a class="links" href="{{ url('/') }}">Карта</a>
-            <a class="links" href="{{ url('/') }}">ЧаВо</a>
+            <a class="links" href="{{ url('/main') }}">News</a>
+            <a class="links" href="{{ url('/events') }}">Events</a>
+            <a class="links" href="{{ url('/roster') }}">Roster</a>
+            <a class="links" href="{{ url('/contact') }}">Contact</a>
         </div>
     </header>
 
