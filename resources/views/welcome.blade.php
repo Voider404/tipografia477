@@ -146,13 +146,67 @@
 
 
     <div class="content">
+
+        <h2>Who are we?</h2>
+        <p>
+            Rocket Core is a Rocket League and League of Legends Tournament and Esports Organisation that fosters an enjoyable environment for all its staff, members and everyone involved. Our aim is to run successful and enjoyable events for the community and have fun doing so!
+        </p>
+
+        <h2>Rocket Core Esports</h2>
+        <p>
+            Here at Rocket Core we also have our very own Rocket League and League of Legends teams. We call it Rocket Core Esports! To see the current roster <a href="roster">click here</a> or join our <a href="http://discord.rocketcorerl.com" target="_blank">discord <i class="fab fa-discord"></i></a><BR>If you see a spot open in one of our teams contact one of our Team Managers!</p>
+        <p>
+            We also have Lower Ranked League of Legends teams for those who want to play games more casually, we feature a wide range of lower-ranked teams. We host squads for players of all levels.<a href="https://forms.gle/8yHogkd5LP4LUXmt5" target="_blank">Click here</a> to Sign up.
+        </p>
+
+        <h2>League of Legends</h2>
+        <p>
+            For our League of Legends community, we offer a highly accurate tier list for players eager to climb in solo Q, based on intel from a large variety of partnerships and external sources, such as ProGuides Challenger League of Legends Guides, Skill Capped Challenger LoL Guides, Mobalytics and more.
+        </p>
+
         <div class="title m-b-md">
             <img src="/images/LOGO.svg" width="481.56px" height="232px" alt="RocketCore"><br>
+
             <a href="/main"><button class="btn-welcome"> DON'T PRESS </button></a>
         </div>
     </div>
 </div>
 <!-- Scripts -->
 <script src="/js/app.js"></script>
+
+<!--- footer -->
+<footer>
+    <div class="column" id="c1">
+        <img src="img/logo.png" height="40" width="40">
+        <span id="RCFooter">Rocket Core</span><BR>
+            <a href="https://www.twitch.tv/rocket_core/" target="_blank"><i class="fab fa-twitch"></i></a>
+            <a href="http://discord.rocketcorerl.com" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="https://twitter.com/rc_rocketcore" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/rocket_core" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCI_eLjh_rFn0f4mL8HCztww" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+    <div class="column" id="c2">
+        <table>
+            <tr>
+                <th><a href="index.php">Home</a></th>
+                <th><a href="news.php">News</a></th>
+                <!-- <th><a href="scrims.php">Scrims</a></th> -->
+            </tr>
+            <tr>
+
+                <th><a href="roster.php">Roster</a></th>
+                <th><a href="events.php">Events</a></th>
+            </tr>
+            <tr>
+
+                <th><a href="contact.php">Contact</a></th>
+            </tr>
+        </table>
+    </div>
+    <div id="c3">
+        ©rocketcore 2020
+    </div>
+</footer
+
 </body>
 </html>
