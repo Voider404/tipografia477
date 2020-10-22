@@ -146,7 +146,7 @@
 
     <div class="content">
         <div class="title m-b-md">
-            <img src="/images/FunkLogo.svg" width="481.56px" height="232px" alt="FunkWater"><br>
+            <img src="/images/LOGO.svg" width="481.56px" height="232px" alt="RocketCore"><br>
             <a href="/main"><button class="btn-welcome">Найти источник</button></a>
         </div>
     </div>
