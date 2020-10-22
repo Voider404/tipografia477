@@ -27,6 +27,14 @@
 </head>
 <body>
     <header class="top">
+        
+        <div class="top-left">
+            <a class="links" href="{{ url('/main') }}">News</a>
+            <a class="links" href="{{ url('/events') }}">Events</a>
+            <a class="links" href="{{ url('/roster') }}">Roster</a>
+            <a class="links" href="{{ url('/contact') }}">Contact</a>
+        </div>
+
         <a href="/main"><img src="images/RC_logo.png" class="logo"></a>
     @if (Route::has('login'))
         <div class="top-right links">
