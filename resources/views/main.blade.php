@@ -20,10 +20,10 @@
         <div class="post">
             <img class="post-image" src="images/RCWeekly_cm.png">
             <div class="post-info">
-                <H3>Родник в Приморском районе</H3>
+                <H3>Rocket Core Weeklies</H3>
                 <H4>07.10.2020</H4>
-                <p class="post-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum quam sit amet massa sagittis, in vulputate nisi accumsan. Nulla facilisi. Nunc quis lobortis ante. Mauris nec lorem et tortor cursus sollicitudin sit amet id justo. Integer sem libero, interdum id lacinia ac, feugiat et nibh. Curabitur turpis purus, aliquet et risus nec, tincidunt dignissim nisl. Nullam eget volutpat nulla. Donec erat ipsum, condimentum... </p>
-                <a class="post-link" href="#"> подробнее</a>
+                <p class="post-text"> We are back with our Rocket League Weekly tournaments! every Monday at 6pm BST Teams from all over the EU region fight over the title "RC Weekly Champions!" </p>
+                <a class="post-link" href="http://discord.rocketcorerl.com">Click here for more info.</a>
             </div>
             <hr>
         </div>
