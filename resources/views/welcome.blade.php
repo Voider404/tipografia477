@@ -15,7 +15,7 @@
 
     <style>
         html, body {
-            background-color: #F5F7F8;
+            background: url(/images/background.png);
             color: #636b6f;
             font-family: 'Roboto', sans-serif;
             font-weight: 100;

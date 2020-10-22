@@ -27,7 +27,7 @@
 </head>
 <body>
     <header class="top">
-        
+
         <div class="top-left">
             <a class="links" href="{{ url('/main') }}">News</a>
             <a class="links" href="{{ url('/events') }}">Events</a>
@@ -67,6 +67,7 @@
         </div>
     @endif
     </header>
+
 
     <div class="container-fluid">
         <div class="row">
