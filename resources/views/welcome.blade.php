@@ -177,7 +177,7 @@
 <!--- footer -->
 <footer>
     <div class="column" id="c1">
-        <img src="img/logo.png" height="40" width="40">
+        <img src="images/LOGO.svg" height="40" width="40">
         <span id="RCFooter">Rocket Core</span><BR>
             <a href="https://www.twitch.tv/rocket_core/" target="_blank"><i class="fab fa-twitch"></i></a>
             <a href="http://discord.rocketcorerl.com" target="_blank"><i class="fab fa-discord"></i></a>
