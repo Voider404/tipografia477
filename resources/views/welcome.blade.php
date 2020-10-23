@@ -2,99 +2,9 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Rocket Core</title>
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <!-- Styles -->
-    <link href="/css/app.css" rel="stylesheet">
-
-    <style>
-        html, body {
-            background: url(/images/background.png);
-            color: #636b6f;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 100;
-            height: 100vh;
-            margin: 0;
-        }
-
-        a{
-            text-decoration: none;
-            color: #757575 !important;
-        }
-
-        ul, li{
-            list-style-type: none;
-        }
-
-        .full-height {
-            height: 100vh;
-        }
-
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-
-        .position-ref {
-            position: relative;
-        }
-
-        .top{
-            position: absolute;
-            height: 70px;
-            background-color: black;
-            color: #757575 !important;
-            width: 100%;
-            top: 0px;
-            font-size: 18pt;
-        }
-
-        .links{
-            margin-right: 20px;
-        }
-
-        .top-right {
-            position: absolute;
-            right: 5%;
-            top: 18px;
-        }
-
-        .top-left {
-            position: absolute;
-            top: 18px;
-            left: 5%;
-        }
-
-        .content {
-            text-align: center;
-        }
-
-        .title {
-            font-size: 84px;
-        }
-        .btn-welcome{
-            color: white;
-            background-color: #0069A7;
-            border: none;
-            border-radius: 60px;
-            width: 372px;
-            height: 80px;
-            padding: 5px;
-            margin-top: 80px;
-            font-size: 30pt;
-        }
-
-        .m-b-md {
-            margin-bottom: 30px;
-        }
-    </style>
 
     <!-- Scripts -->
     <script>
@@ -102,8 +12,23 @@
             'csrfToken' => csrf_token(),
         ]); ?>
     </script>
+
+    <script type="text/javascript">
+        (function() {
+            var css = document.createElement('link');
+            css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
+            css.rel = 'stylesheet';
+            css.type = 'text/css';
+            document.getElementsByTagName('head')[0].appendChild(css);
+        })();
+    </script>
+
+    <link href="css/rc.css" rel="stylesheet">
+  <!--  <link href="css/style.css" rel="stylesheet">  -->
+
 </head>
-<body>
+<body background="images/background.png">
+
 <div class="flex-center position-ref full-height">
     <header class="top">
     @if (Route::has('login'))
@@ -136,45 +61,99 @@
         </div>
     @endif
 
-        <div class="top-left">
-            <a class="links" href="{{ url('/index') }}">Home</a>
-            <a class="links" href="{{ url('/main') }}">News</a>
-            <a class="links" href="{{ url('/events') }}">Events</a>
-            <a class="links" href="{{ url('/roster') }}">Roster</a>
-            <a class="links" href="{{ url('/contact') }}">Contact</a>
+        <nav>
+            <div class="logo">
+                <a href="./"><img src="images/RC_logo.png" height="40" width="40"></a>
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a  class="active" href="./">Home</a>
+                <a  href="main">News</a>
+                <a  href="events">Events</a>
+                <!-- <a  href="scrims">Scrims</a> -->
+                <a  href="roster">Roster</a>
+                <a  href="contact">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
+        <!-- TOP -->
+        <a name="top"></a>
+        <a href="news.php">
+            <section class="news">
+                <marquee behavior="scroll" direction="left" scrollamount="11">NEWS! We are back with the Rocket Core Weekly tournaments! This upcoming monday a €75 prize pool! Sign up now!</marquee>
+            </section>
+        </a>
+
+        <section>
+            <article>
+                <h2>Who are we?</h2>
+                <p>Rocket Core is a Rocket League and League of Legends Tournament and Esports Organisation that fosters an enjoyable environment for all its staff, members and everyone involved. Our aim is to run successful and enjoyable events for the community and have fun doing so!
+                    <BR><a class="button" href="http://discord.rocketcorerl.com" target="_blank">Join</a>
+                </p>
+                <!-- <h2>Rocket League</h2>
+                <p>
+                    <BR><a class="button" href="http://discord.rocketcorerl.com" target="_blank">Sign Up</a>
+                </p> -->
+
+                <h2>Rocket Core Esports</h2>
+                <p>Here at Rocket Core we also have our very own Rocket League and League of Legends teams. We call it Rocket Core Esports! To see the current roster <a href="roster">click here</a> or join our <a href="http://discord.rocketcorerl.com" target="_blank">discord <i class="fab fa-discord"></i></a><BR>If you see a spot open in one of our teams contact one of our Team Managers!</p>
+                <p>
+                    We also have Lower Ranked League of Legends teams for those who want to play games more casually, we feature a wide range of lower-ranked teams. We host squads for players of all levels.<a href="https://forms.gle/8yHogkd5LP4LUXmt5" target="_blank">Click here</a> to Sign up.
+                </p>
+                <h2>League of Legends</h2>
+                <p>For our League of Legends community, we offer a highly accurate tier list for players eager to climb in solo Q, based on intel from a large variety of partnerships and external sources, such as ProGuides Challenger League of Legends Guides, Skill Capped Challenger LoL Guides, Mobalytics and more.
+                </p>
+            </article>
+
+        </section>
+
+        <!-- Back to top -->
+        <div id="backTopDiv">
+            <a href="#top" id="backTop">Back to the top</a>
         </div>
-    </header>
 
 
-    <div class="content">
 
-        <h2>Who are we?</h2>
-        <p>
-            Rocket Core is a Rocket League and League of Legends Tournament and Esports Organisation that fosters an enjoyable environment for all its staff, members and everyone involved. Our aim is to run successful and enjoyable events for the community and have fun doing so!
-        </p>
+        <!--- footer -->
+        <footer>
+            <div class="column" id="c1">
+                <img src="images/RC_logo.png" height="40" width="40">
+                <span id="RCFooter">Rocket Core</span><BR>
+                    <a href="https://www.twitch.tv/rocket_core/" target="_blank"><i class="fab fa-twitch"></i></a>
+                    <a href="http://discord.rocketcorerl.com" target="_blank"><i class="fab fa-discord"></i></a>
+                    <a href="https://twitter.com/rc_rocketcore" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/rocket_core" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCI_eLjh_rFn0f4mL8HCztww" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="column" id="c2">
+                <table>
+                    <tr>
+                        <th><a href="index.php">Home</a></th>
+                        <th><a href="news.php">News</a></th>
+                        <!-- <th><a href="scrims.php">Scrims</a></th> -->
+                    </tr>
+                    <tr>
 
-        <h2>Rocket Core Esports</h2>
-        <p>
-            Here at Rocket Core we also have our very own Rocket League and League of Legends teams. We call it Rocket Core Esports! To see the current roster <a href="roster">click here</a> or join our <a href="http://discord.rocketcorerl.com" target="_blank">discord <i class="fab fa-discord"></i></a><BR>If you see a spot open in one of our teams contact one of our Team Managers!</p>
-        <p>
-            We also have Lower Ranked League of Legends teams for those who want to play games more casually, we feature a wide range of lower-ranked teams. We host squads for players of all levels.<a href="https://forms.gle/8yHogkd5LP4LUXmt5" target="_blank">Click here</a> to Sign up.
-        </p>
+                        <th><a href="roster.php">Roster</a></th>
+                        <th><a href="events.php">Events</a></th>
+                    </tr>
+                    <tr>
 
-        <h2>League of Legends</h2>
-        <p>
-            For our League of Legends community, we offer a highly accurate tier list for players eager to climb in solo Q, based on intel from a large variety of partnerships and external sources, such as ProGuides Challenger League of Legends Guides, Skill Capped Challenger LoL Guides, Mobalytics and more.
-        </p>
+                        <th><a href="contact.php">Contact</a></th>
+                    </tr>
+                </table>
+            </div>
+            <div id="c3">
+                ©rocketcore 2020
+            </div>
+        </footer>
 
-        <div class="title m-b-md">
-            <img src="/images/LOGO.svg" width="481.56px" height="232px" alt="RocketCore"><br>
 
-            <a href="/main"><button class="btn-welcome"> DON'T PRESS </button></a>
-        </div>
-    </div>
-</div>
+
 <!-- Scripts -->
 <script src="/js/app.js"></script>
-
 
 
 </body>
