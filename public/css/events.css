@@ -1,0 +1,62 @@
+section {
+    text-align: center;
+}
+
+section article {
+    width: 50%;
+    background-color: #2D2F34;
+    margin: 5.0rem 2.0rem 1.0rem 2.0rem;
+    text-align: left;
+    padding: 2.0rem 4.0rem;
+    border: white;
+    border-radius: 4.0rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    text-decoration: none;
+    display: inline-block
+
+}
+section article ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+section article ul li {
+    list-style-type: none;
+    margin: 1.0rem 0;
+    padding-left: 2rem;
+    font-size: 1.9rem;
+}
+
+section article a.button{
+    font-size: 1.5rem;
+    background-color: white;
+    color: #030303;
+    float: right;
+    padding: 1.0rem 1.5rem;
+    border: white;
+    border-radius: 4.0rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    vertical-align: center;
+}
+section a img {
+    width: 57%;
+    border: white;
+    border-radius: 4.0rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    display: inline-block;
+}
+section article img {
+    width: 100%;
+    border: white;
+    border-radius: 4.0rem;
+    border-style: solid;
+    border-width: 0.1rem;
+}
+.img {
+    padding-left: .5rem;
+}
