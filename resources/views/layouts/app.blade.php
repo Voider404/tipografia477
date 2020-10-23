@@ -12,7 +12,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
@@ -123,7 +123,7 @@
             </table>
         </div>
         <div id="c3">
-            ©rocketcore 2020
+            ©Rocket Core 2020
         </div>
     </footer>
 
