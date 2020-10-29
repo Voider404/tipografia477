@@ -1,0 +1,102 @@
+section {
+    text-align: center;
+}
+
+section .table .coll {
+    list-style: none;
+    padding: 1.0rem 1.0rem;
+    width: 45%;
+    display: inline-block;
+}
+
+section .table .formTitle {
+    text-align: left;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding: 4.0rem 1.0rem;
+    vertical-align: top;
+}
+section div.coll img {
+    margin-top: 3rem;
+}
+section div.coll {
+    margin-top: 2.5rem;
+}
+
+section .table ul {
+    vertical-align: top;
+}
+
+section .table li {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+    padding: 2.0rem 1.0rem 2.0rem 30%;
+}
+
+section .table i {
+    font-weight: 100;
+    padding-left: 1.0rem;
+}
+
+section span.link {
+    color: #75E4FF;
+    display: block;
+    padding-top: 1.0rem;
+    font-size: 2.0rem;
+    font-weight: normal;
+    padding-left: 0.2rem;
+}
+
+section form input,
+textarea {
+    width: 60%;
+    display: inline-block;
+    height: 2.0rem;
+    font-size: 1.5rem;
+    background-color: #2D2F34;
+    color: white;
+    border: white;
+    border-radius: 1.5rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    text-decoration: none;
+    padding: 0.5rem 2.0rem 0.5rem;
+    margin: 1.5rem 2.0rem;
+    resize: none;
+}
+
+section form textarea {
+    height: 15.0rem;
+}
+
+section form input[name=submit] {
+    height: 3.0rem;
+    cursor: pointer;
+    background-color: white;
+    color: #030303;
+    width: 40%;
+}
+
+section form input[type=text]:focus,
+textarea:focus,
+input[type=email]:focus {
+    outline: none;
+    box-shadow: 0 0 1.0rem white;
+    border: 0.1rem solid white;
+    border-radius: 1.0rem;
+}
+
+@media screen and (max-width: 800px) {
+    section .table .coll{
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+    section .table li {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
