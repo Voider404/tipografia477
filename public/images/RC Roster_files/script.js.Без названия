@@ -1,0 +1,79 @@
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+function reveal(rank) {
+
+  let rankID = rank;
+
+  let ranks = ["A", "B", "C", "D", "E"];
+  ranks.forEach(r => {
+
+    let rankElements = document.getElementsByClassName(r);
+    if (rankElements != null) {
+      for (let i = 0; i < rankElements.length; i++) {
+        rankElements[i].style.display = "none";
+      }
+    }
+
+
+    let button = document.getElementById("Button" + r);
+
+    if (button.classList.contains('rankActive')) {
+      button.classList.remove('rankActive');
+      button.classList.add('!rankActive');
+    }
+
+  });
+
+  var elements = document.getElementsByClassName(rankID);
+  if (elements != null) {
+    for (let i = 0; i < elements.length; i++) {
+      let element = elements[i];
+      element.style.display = "inline-block";
+    }
+  }
+
+
+  document.getElementById("Button" + rankID).classList.remove('!rankActive');
+  document.getElementById("Button" + rankID).classList.add('rankActive');
+}
+function roster(game) {
+
+  let games = ["RL","LOL"];
+
+  games.forEach(g => {
+
+    let gameElements = document.getElementsByClassName(g);
+    if (gameElements != null) {
+      for (let i = 0; i < gameElements.length; i++) {
+        gameElements[i].style.display = "none";
+      }
+    }
+
+    let button = document.getElementById("Button" + g);
+
+    if (button.classList.contains('gameActive')) {
+      button.classList.remove('gameActive');
+      button.classList.add('!gameActive');
+    }
+
+  });
+
+  var elements = document.getElementsByClassName(game);
+  if (elements != null) {
+    for (let i = 0; i < elements.length; i++) {
+      let element = elements[i];
+      element.style.display = "block";
+    }
+  }
+
+  document.getElementById("Button" + game).classList.remove('!gameActive');
+  document.getElementById("Button" + game).classList.add('gameActive');
+}
