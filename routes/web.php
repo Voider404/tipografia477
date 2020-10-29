@@ -19,3 +19,12 @@ Route::get('/FAQ', function () {
 Route::get('/map', function () {
     return view('map');
 });
+Route::get('/events', function () {
+    return view('events');
+});
+Route::get('/roster', function () {
+    return view('roster');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
