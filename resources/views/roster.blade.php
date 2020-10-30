@@ -1,6 +1,3 @@
-@extends('layouts.app')
-
-@section('content')
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,6 +30,22 @@
 
 <body>
 
+<nav>
+    <div class="logo">
+        <a href="./"><img src="images/logo.png" height="40" width="40"></a>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <a  href="./">Home</a>
+        <a  href="news">News</a>
+        <a  href="events">Events</a>
+        <!-- <a  href="scrims">Scrims</a> -->
+        <a  href="roster">Roster</a>
+        <a  class="active" href="contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fas fa-bars"></i>
+        </a>
+    </div>
+</nav>
 
 <!-- TOP -->
 <a name="top"></a>
