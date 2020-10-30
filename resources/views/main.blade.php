@@ -3,18 +3,89 @@
 
 
 @section('content')
+        <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rocket Core</title>
+
+    <!-- Scripts -->
+    <script>
+        window.Laravel = <?php echo json_encode([
+            'csrfToken' => csrf_token(),
+        ]); ?>
+    </script>
+
+    <script type="text/javascript">
+        (function() {
+            var css = document.createElement('link');
+            css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
+            css.rel = 'stylesheet';
+            css.type = 'text/css';
+            document.getElementsByTagName('head')[0].appendChild(css);
+        })();
+    </script>
+
+    <link href="css/rc.css" rel="stylesheet">
+    <!--  <link href="css/style.css" rel="stylesheet">  -->
+
+</head>
+<body background="images/background.png">
+
+<div class="flex-center position-ref full-height">
+    <header class="top">
+        @if (Route::has('login'))
+            <div class="top-right links">
+                @if (Auth::check())
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            {{ Auth::user()->name }} <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="{{ url('/profile') }}">Profile</a>
+                                <a href="{{ url('/logout') }}"
+                                   onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                    Logout
+                                </a>
+
+                                <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
+                                    {{ csrf_field() }}
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                @else
+                    <a href="{{ url('/login') }}">Login</a>
+                    <a href="{{ url('/register') }}">Register</a>
+                @endif
+            </div>
+        @endif
+
+        <nav>
+            <div class="logo">
+                <a href="./"><img src="images/RC_logo.png" height="40" width="40"></a>
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a  class="active" href="./">Home</a>
+                <a  href="main">News</a>
+                <a  href="events">Events</a>
+                <!-- <a  href="scrims">Scrims</a> -->
+                <a  href="roster">Roster</a>
+                <a  href="contact">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
 
     <div class="middle-col">
-    <div class="search">
-        <input placeholder="Поиск" type="text" class="search-form" name="search" required autofocus>
-        <button type="submit" class="search-btn"></button>
 
-{{--        @if ($errors->has('email'))--}}
-{{--            <span class="help-block">--}}
-{{--                                        <strong>{{ $errors->first('email') }}</strong>--}}
-{{--                                    </span>--}}
-{{--        @endif--}}
-    </div>
     <hr>
 
         <div class="post">

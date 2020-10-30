@@ -1,5 +1,8 @@
+@extends('layouts.app')
+
+@section('content')
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -113,43 +116,6 @@
         <div id="backTopDiv">
             <a href="#top" id="backTop">Back to the top</a>
         </div>
-
-
-
-        <!--- footer -->
-        <footer>
-            <div class="column" id="c1">
-                <img src="images/RC_logo.png" height="40" width="40">
-                <span id="RCFooter">Rocket Core</span><BR>
-                    <a href="https://www.twitch.tv/rocket_core/" target="_blank"><i class="fab fa-twitch"></i></a>
-                    <a href="http://discord.rocketcorerl.com" target="_blank"><i class="fab fa-discord"></i></a>
-                    <a href="https://twitter.com/rc_rocketcore" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://instagram.com/rocket_core" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.youtube.com/channel/UCI_eLjh_rFn0f4mL8HCztww" target="_blank"><i class="fab fa-youtube"></i></a>
-            </div>
-            <div class="column" id="c2">
-                <table>
-                    <tr>
-                        <th><a href="index.php">Home</a></th>
-                        <th><a href="news.php">News</a></th>
-                        <!-- <th><a href="scrims.php">Scrims</a></th> -->
-                    </tr>
-                    <tr>
-
-                        <th><a href="roster.php">Roster</a></th>
-                        <th><a href="events.php">Events</a></th>
-                    </tr>
-                    <tr>
-
-                        <th><a href="contact.php">Contact</a></th>
-                    </tr>
-                </table>
-            </div>
-            <div id="c3">
-                ©rocketcore 2020
-            </div>
-        </footer>
-
 
 
 <!-- Scripts -->
