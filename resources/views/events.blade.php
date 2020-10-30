@@ -2,11 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta name="author" content="Joren Nagels">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="img/black.png" />
     <title>RC Events</title>
+
+    <!-- Scripts -->
+    <script>
+        window.Laravel = <?php echo json_encode([
+            'csrfToken' => csrf_token(),
+        ]); ?>
+    </script>
+
     <script type="text/javascript">
         (function() {
             var css = document.createElement('link');
@@ -16,6 +23,7 @@
             document.getElementsByTagName('head')[0].appendChild(css);
         })();
     </script>
+
     <link href="css/rc.css" rel="stylesheet">
     <link href="css/events.css" rel="stylesheet">
     <script src="js/script.js"></script>

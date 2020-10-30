@@ -1,9 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <title>RC Contact</title>
+
+    <!-- Scripts -->
+    <script>
+        window.Laravel = <?php echo json_encode([
+            'csrfToken' => csrf_token(),
+        ]); ?>
+    </script>
+
     <script type="text/javascript">
         (function() {
             var css = document.createElement('link');
@@ -13,6 +20,7 @@
             document.getElementsByTagName('head')[0].appendChild(css);
         })();
     </script>
+
     <link href="css/rc.css" rel="stylesheet">
     <link href="css/contact.css" rel="stylesheet">
     <script src="js/script.js"></script>

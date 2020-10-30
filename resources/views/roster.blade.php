@@ -8,6 +8,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RC Roster</title>
+
+    <!-- Scripts -->
+    <script>
+        window.Laravel = <?php echo json_encode([
+            'csrfToken' => csrf_token(),
+        ]); ?>
+    </script>
+
     <script type="text/javascript">
         (function() {
             var css = document.createElement('link');
@@ -17,6 +25,7 @@
             document.getElementsByTagName('head')[0].appendChild(css);
         })();
     </script>
+
     <link href="css/rc.css" rel="stylesheet">
     <link href="css/roster.css" rel="stylesheet">
     <script src="js/script.js"></script>
