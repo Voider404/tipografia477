@@ -49,7 +49,7 @@
     </article> ------------------------------------------>
     <article>
         <h2>Rocket Core Weekly!</h2>
-        <img src="img/RCWeekly_cm.png">
+        <img src="images/RCWeekly_cm.png">
         <ul>
             <li>Registration ends @ 5pm BST<a class="button" href="http://weekly.rocketcorerl.com" target="_blank">Sign up!</a></li>
             <li>Every Monday!</li>

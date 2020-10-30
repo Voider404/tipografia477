@@ -1,5 +1,4 @@
-
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="utf-8">
@@ -25,7 +24,7 @@
     </script>
 
     <link href="css/rc.css" rel="stylesheet">
-    <!--  <link href="css/style.css" rel="stylesheet">  -->
+    <link href="css/news.css" rel="stylesheet">
 
 </head>
 <body background="images/background.png">
@@ -80,61 +79,47 @@
         </nav>
 
 
-    <div class="middle-col">
 
-    <hr>
-
-        <div class="post">
-            <img class="post-image" src="images/RCWeekly_cm.png">
-            <div class="post-info">
-                <H3>Rocket Core Weeklies</H3>
-                <H4>07.10.2020</H4>
-                <p class="post-text"> We are back with our Rocket League Weekly tournaments! every Monday at 6pm BST Teams from all over the EU region fight over the title "RC Weekly Champions!" </p>
-                <a class="post-link" href="http://discord.rocketcorerl.com">Click here for more info.</a>
-            </div>
             <hr>
-        </div>
-        <div class="post">
-            <img class="post-image" src="images/es.png">
-            <div class="post-info">
-                <H3>The Elemental Series</H3>
-                <H4>07.10.2020</H4>
-                <p class="post-text"> For the past few months we have been working very hard together with Templar Leagues, Slipstream and Your Throwing to present to you The Elemental Series! With a €3000 prize pool sponsored by Challenger mode! </p>
-                <a class="post-link" href="http://discord.rocketcorerl.com">Click here for more info.</a>
+
+            <div class="post">
+                <img class="post-image" src="images/RCWeekly_cm.png">
+                <div class="post-info">
+                    <H3>Rocket Core Weeklies</H3>
+                    <H4>07.10.2020</H4>
+                    <p class="post-text"> We are back with our Rocket League Weekly tournaments! every Monday at 6pm BST Teams from all over the EU region fight over the title "RC Weekly Champions!" </p>
+                    <a class="post-link" href="http://discord.rocketcorerl.com">Click here for more info.</a>
+                </div>
+                <hr>
             </div>
-            <hr>
-        </div>
-        <div class="post">
-            <img class="post-image" src="images/rc_lol.png">
-            <div class="post-info">
-                <H3>RC joins League of Legends!</H3>
-                <H4>07.10.2020</H4>
-                <p class="post-text"> We are proud to announce that we have joined the League of Legends Esports scene! With 3 competitive teams and multiple community teams Rocket Core will be expanding in the League of Legends universe! </p>
-                <a class="post-link" href="http://discord.rocketcorerl.com">Click here for more info.</a>
+            <div class="post">
+                <img class="post-image" src="images/es.png">
+                <div class="post-info">
+                    <H3>The Elemental Series</H3>
+                    <H4>07.10.2020</H4>
+                    <p class="post-text"> For the past few months we have been working very hard together with Templar Leagues, Slipstream and Your Throwing to present to you The Elemental Series! With a €3000 prize pool sponsored by Challenger mode! </p>
+                    <a class="post-link" href="http://discord.rocketcorerl.com">Click here for more info.</a>
+                </div>
+                <hr>
             </div>
-            <hr>
-        </div>
-        <div class="post">
-            <img class="post-image" src="images/banner_venus.png">
-            <div class="post-info">
-                <H3>Introducing RC Venus</H3>
-                <H4>07.10.2020</H4>
-                <p class="post-text"> We are happy to announce That Jack and Matrix will be joining the Rocket Core Esports family. They will be playing under the name RC Venus and are looking for a third player! If you are interested contact one of the RC Managers or the captain. </p>
-                <a class="post-link" href="http://discord.rocketcorerl.com">Click here for more info.</a>
+            <div class="post">
+                <img class="post-image" src="images/rc_lol.png">
+                <div class="post-info">
+                    <H3>RC joins League of Legends!</H3>
+                    <H4>07.10.2020</H4>
+                    <p class="post-text"> We are proud to announce that we have joined the League of Legends Esports scene! With 3 competitive teams and multiple community teams Rocket Core will be expanding in the League of Legends universe! </p>
+                    <a class="post-link" href="http://discord.rocketcorerl.com">Click here for more info.</a>
+                </div>
+                <hr>
             </div>
-            <hr>
-        </div>
+            <div class="post">
+                <img class="post-image" src="images/banner_venus.png">
+                <div class="post-info">
+                    <H3>Introducing RC Venus</H3>
+                    <H4>07.10.2020</H4>
+                    <p class="post-text"> We are happy to announce That Jack and Matrix will be joining the Rocket Core Esports family. They will be playing under the name RC Venus and are looking for a third player! If you are interested contact one of the RC Managers or the captain. </p>
+                    <a class="post-link" href="http://discord.rocketcorerl.com">Click here for more info.</a>
+                </div>
+                <hr>
+            </div>
 
-</div>
-
-@endsection
-
-@section('info')
-
-    <div class="middle-col">
-        <h4>фильтр тут</h4>
-        <input>
-        <input>
-    </div>
-
-@endsection
